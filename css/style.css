@@ -1,0 +1,38 @@
+.header {
+}
+
+.main {
+}
+
+.footer {
+  background-color: #1b1b1b;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul li {
+  margin: 0 4rem;
+}
+
+.footer .logo-footer {
+  font-weight: bold;
+}
+
+.footer .copyright {
+  font-size: 0.8rem;
+  color: #464646;
+}
+
+.footer .email {
+  font-size: 0.8rem;
+}
