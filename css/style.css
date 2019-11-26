@@ -1,9 +1,14 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
+  background-color: #464646;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .main {
@@ -28,14 +33,57 @@ body {
 }
 
 .phone-image {
-  display: block;
   max-width: 100%;
 }
+.app-store-image {
+  max-width: 100%;
+}
+/* @media (max-width: 576px) {
+  .logo-image {
+    max-width: 50%;
+  }
+  .phone-image {
+    max-width: 50%;
+  }
+} */
 
-.main .second-section {
+.main .about {
   background-color: #1b1b1b;
   padding: 4rem;
   text-align: center;
+}
+
+.main .about img {
+  max-width: 100%;
+}
+
+.team {
+  padding: 2rem;
+}
+
+.team-title {
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 0.5rem;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 0;
+}
+
+.card .employee {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card .employee-position {
+  font-size: 1.2rem;
+  text-align: center;
+  opacity: 0.7;
 }
 
 .footer {
@@ -47,6 +95,7 @@ body {
 }
 
 .footer ul {
+  padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
@@ -55,7 +104,7 @@ body {
 }
 
 .footer ul li {
-  margin: 0 4rem;
+  padding: 0 4rem;
 }
 
 .footer .logo-footer {
@@ -69,4 +118,36 @@ body {
 
 .footer .email {
   font-size: 0.8rem;
+}
+
+@media (max-width: 992px) {
+  .main .card-body {
+    padding: 1rem;
+  }
+  .main .card-title {
+    font-size: 1rem;
+  }
+
+  .footer ul li {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .employee {
+    font-size: 1.2rem;
+  }
+  .card .employee-position {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main .about {
+    padding: 2rem 0.5rem;
+  }
+  .footer ul {
+    display: block;
+    text-align: center;
+  }
 }

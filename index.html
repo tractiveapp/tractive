@@ -22,8 +22,36 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">TRACTIVE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="#">TRACTIVE</a>
         <button
           class="navbar-toggler"
@@ -36,6 +64,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse-navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li id="nav-item-1">
@@ -52,13 +81,13 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
     </header>
 
     <main class="main">
       <div class="container-fluid top-container">
         <div class="row justify-content-center align-items-center">
-          <div class="col-sm-6 col-sm-4">
+          <div class="col-6 col-sm-5 col-md-4">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="wrap-image col">
@@ -72,10 +101,10 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4">
+          <div class="col-6 col-sm-5 col-md-4">
             <div class="wrap-image">
               <img
-                class="img-responsive phone-image"
+                class="phone-image"
                 src="/img/img1.png"
                 alt="Hand holding smartphone with application"
               />
@@ -83,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="second-section">
+      <div class="about" id="about">
         <img src="/img/line-item-img.png" />
       </div>
 
@@ -92,36 +121,8 @@
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
       <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <!-- <div id="TracitiveText2">
-            <img class="Appstore" src="/img/AppStore.png">
-          </div><hr>   -->
-          <!-- <div class="col-lg-4"><br>
-        <img class="img-fluid" width="100" height="100" src="/img/img2.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-        <h2>Time</h2><hr>
-        <p>Track how much time has passed for each job.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>/.col-lg-4 -->
-          <!-- <div class="col-lg-4"><br>
-        <img class="img-fluid" width="100" height="100" src="/img/img3.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-        <h2>Status</h2><hr>
-        <p>Set and track statuses for each vacancy.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>/.col-lg-4 -->
-          <!-- <div class="col-lg-4"><br>
-        <img class="img-fluid" width="100" height="100" src="/img/img4.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-        <h2>Comment</h2><hr>
-        <p>Leave comments and other information useful to you.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div> -->
-        </div>
-        <!-- /.row -->
-
         <!-- START THE FEATURETTES -->
-
         <hr class="featurette-divider" />
-
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">
@@ -211,16 +212,6 @@
             ><rect width="100%" height="100%" fill="#eee" />
           </div>
         </div>
-        <!-- <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Quickly keep track of complete statistics on submitted resumes.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600" height="600" src="/img/img7.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
-      </div>
-    </div> -->
-
         <hr class="featurette-divider" />
 
         <div class="row featurette">
@@ -251,31 +242,33 @@
 
       <hr class="featurette-divider" />
 
-      <div class="team"><h2 id="team-title">OUR TEAM</h2></div>
-      <br />
-      <div class="card-deck">
-        <div class="card">
-          <img src="/img/Img10.jpg" class="teamimg1" />
-          <div class="card-body">
-            <h5 class="card-title">Roman Tihai</h5>
-            <p class="card-text">UX/UI design, PM</p>
+      <div class="team" id="team">
+        <h2 id="team-title" class="team-title">OUR TEAM</h2>
+        <div class="card-deck">
+          <div class="card">
+            <img src="/img/Img10.jpg"/>
+            <div class="card-body">
+              <h5 class="employee">Roman Tihai</h5>
+              <p class="employee-position">UX/UI design, PM</p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="/img/Img10.jpg" class="teamimg2" />
-          <div class="card-body">
-            <h5 class="card-title">Mona Shamsolebad</h5>
-            <p class="card-text">iOS developer, PM</p>
+          <div class="card">
+            <img src="/img/Img10.jpg"/>
+            <div class="card-body">
+              <h5 class="employee">Mona Shamsolebad</h5>
+              <p class="employee-position">iOS developer, PM</p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="/img/Img10.jpg" class="teamimg3" />
-          <div class="card-body">
-            <h5 class="card-title">Sean Chien</h5>
-            <p class="card-text">iOS developer</p>
+          <div class="card">
+            <img src="/img/Img10.jpg"/>
+            <div class="card-body">
+              <h5 class="employee">Sean Chien</h5>
+              <p class="employee-position">iOS developer</p>
+            </div>
           </div>
         </div>
       </div>
+
       <hr class="featurette-divider" />
     </main>
 
