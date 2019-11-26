@@ -1,7 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .header {
 }
 
 .main {
+}
+
+.top-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-image {
+  max-width: 90%;
+  max-height: auto;
+  padding: 4rem 0;
+}
+
+.phone-image {
+  display: block;
+  max-width: 100%;
+}
+
+.main .second-section {
+  background-color: #1b1b1b;
+  padding: 4rem;
+  text-align: center;
 }
 
 .footer {

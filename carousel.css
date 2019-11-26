@@ -159,23 +159,4 @@ body {
   text-transform: uppercase;
 } */
 
-.top-container {
-  /* background-color: red; */
-}
 
-.wrap-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo-image {
-  max-width: 90%;
-  max-height: auto;
-  padding: 4rem 0;
-}
-
-.phone-image {
-  display: block;
-  max-width: 100%;
-  max-height: auto;
-}
