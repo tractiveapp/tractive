@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: calc(12px + 1vw);
+}
+
+html,body {
+    height: 100%;
+    background-color: #3D3D3D;
+}
+
+.bg-dark {
+    background-color: #484848!important;
+}
+
+#slogan-main-content {
+    height: 600px;
+    margin-top: 2em;
+}
+
+#cover-heading {
+    font-family: 'Morganite', sans-serif;
+    font-size: 340px;
+    font-weight: 400;
+    margin-bottom: -120px;
+    margin-right: 50px;
+    padding-left: 5%;
+    float: left;
+}
+@media (min-width: 0.2em) {
+    #img-fluid {
+        width: 25%;
+        height: auto;
+    }
+}
+@media (min-width: 0.1em) {
+    #lint-item {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        left: 30%;
+        top: 87%;
+    }
+}
+
+@media (min-width: 0.1em) {
+    #rectangle {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* #slogan {
+    font-family: 'Morganite', sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    padding-left: 300px;
+    margin-right: 50px;
+    padding-left: 6%;
+    float: left;
+    margin-top: 15px;
+} */
+#line-item-img {
+    position: absolute;
+    width: 1000px;
+    height: 184px;
+    left: 450px;
+    top: 15px;
+}
+
+
+#aplle-download {
+    padding-left: 300px;
+    margin-right: 120px;
+    float: left;
+    
+}
+
+.navbar-nav mr-auto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-right: 0;
+}
+
+#team-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+#nav-item-1 {
+    position: absolute;
+    width: 43px;
+    height: 19px;
+    left: 1000px;
+}
+#nav-item-2 {
+    position: absolute;
+    width: 40px;
+    height: 19px;
+    left: 1150px;
+}
+#nav-button-download {
+    background-color: #4C66C3;
+    border-radius: 5px;
+    color: white;
+    font-style: normal;
+    margin-left: 1400px;
+    padding: 0px 4px 0px 4px;
+}
+#nav-button-policy {
+    position: absolute;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 1150px;
+    font-style: normal;
+}
+
+
+
