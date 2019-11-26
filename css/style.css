@@ -11,9 +11,6 @@ body {
   color: #fff;
 }
 
-.main {
-}
-
 .top-container {
   height: 80vh;
   display: flex;
@@ -112,12 +109,12 @@ body {
 }
 
 .footer .copyright {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #464646;
 }
 
 .footer .email {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 992px) {
@@ -145,9 +142,17 @@ body {
 @media (max-width: 576px) {
   .main .about {
     padding: 2rem 0.5rem;
+    
   }
   .footer ul {
     display: block;
     text-align: center;
   }
+}
+
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }

@@ -62,15 +62,11 @@ body {
   color: white;
   box-shadow: 0.5em;
   margin: 0;
-  /* size: 50px; */
-  /* left: 50px; */
 }
-.card > img {
+.card img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
-  width: 234px;
-  height: 292px;
 }
 
 .card > .card-body > .card-title {
@@ -141,22 +137,3 @@ body {
     top: 75%;
   }
 }
-/* .row-featurette > .col-md-7 .search {
-  text-align: right;
-} */
-
-/* #TracitiveText2 {
-  position: absolute;
-  width: 90px;
-  height: 500px;
-  left:45%;
-  top:170%;
-  font-family: Morganite;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 80px;
-  text-align: center;
-  text-transform: uppercase;
-} */
-
-
